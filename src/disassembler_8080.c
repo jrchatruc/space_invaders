@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include "disassembler_8080.h"
 
 int disassemble_8080(char filepath[])

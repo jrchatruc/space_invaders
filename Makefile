@@ -3,7 +3,7 @@
 TARGET=invaders
 TEST_TARGET=test
 
-CC=gcc
+CC=cc
 CFLAGS=-std=c17 -Wall -Wextra -pedantic -g -O0 $(shell sdl2-config --cflags)
 LN_FLAGS=$(shell sdl2-config --libs)
 
