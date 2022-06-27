@@ -6,11 +6,13 @@ A Space Invaders emulator written in C, following [Emulator 101](http://emulator
 
 - [SDL2](https://www.libsdl.org/)
 
-On MacOS (not yet tested on other platforms):
+Only tested on Linux and macOS. On macOS all you need is to to run
 
 ```
 brew install sdl2
 ```
+
+On linux, you most likely need to install both `SDL2` and `SDL2-devel`.
 
 ## Usage
 
